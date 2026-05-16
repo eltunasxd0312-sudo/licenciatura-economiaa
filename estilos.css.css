@@ -1,0 +1,87 @@
+/* Estilos Generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+.contenedor {
+    width: 85%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Encabezado */
+header {
+    background: #0f2c59;
+    color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Barra de Navegación */
+nav {
+    background: #1a4d80;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background: #0f2c59;
+    border-radius: 5px;
+}
+
+/* Secciones principales */
+section {
+    background: #fff;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+h2 {
+    color: #0f2c59;
+    border-bottom: 2px solid #1a4d80;
+    padding-bottom: 10px;
+}
+
+/* Sistema de Tarjetas para Materias */
+.cuadrícula {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1-fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.tarjeta {
+    background: #eef2f7;
+    padding: 20px;
+    border-left: 5px solid #1a4d80;
+    border-radius: 4px;
+}
+
+/* Pie de página */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+
